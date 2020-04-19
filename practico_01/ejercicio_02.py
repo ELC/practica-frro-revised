@@ -1,7 +1,7 @@
 # Implementar la función maximo, que reciba tres números y devuelva el maximo
 # de ellos. Usar función built-in max
 
-# Escribir utilizando tres IFs y comparaciones encadenadas
+# Escribir utilizando tres  IFs y comparaciones encadenadas
 # Referencia: https://docs.python.org/3/reference/expressions.html#comparisons
 
 
