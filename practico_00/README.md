@@ -4,7 +4,7 @@ Este trabajo práctico tiene como objetivo que el alumno se familiarice con el c
 
 Se recomienda que el alumno lea la siguiente [guia introductoria](https://elc.github.io/posts/git-guide-with-visual-interface/es/) creada por el alumno Ezequiel L. Castaño y que luego realice los ejercicios propuestos.
 
-**NOTA**: Para esta actividad los alumnos deberán formar grupos de 3 personas. Estos grupos no serán los definitivos por lo que se alienta la cooperación, cada integrante tendrá un rol y si quedasen grupos de 2 o individuos sin grupo, deberá formarse un nuevo grupo de 3 donde los integrantes faltantes desempeñarán roles distintos a los que tuvieron en su grupo original.
+**NOTA**: Para esta actividad los alumnos deberán formar grupos de 2 personas. Estos grupos serán los definitivos por lo que se alienta la cooperación, cada integrante tendrá un rol diferente que determinará su tareas en las actividades.
 
 El trabajo práctico consta de actividades grupales e individuales. Las actividades individuales tendrán el código **I** y las grupales el código **G**.
 
@@ -12,7 +12,6 @@ Cada grupo deberá asignar los siguientes roles a sus integrantes, los roles no 
 
 1. Integrante `Rojo`
 1. Integrante `Amarillo`
-1. Integrante `Azul`
 
 A partir de este momento las actividades grupales estarán enunciadas en función de los roles propuestos. Las actividades individuales deberán ser realizadas por cada integrante. Se llamará a cada integrante por el color de su rol.
 
@@ -38,29 +37,29 @@ Se realizarán 3 actividades donde se explorarán los conceptos básicos de Git 
 - **I6**: Crear un nuevo branch llamado 'agregar-encuesta' - Nota: la nomenglatura de los branches será la misma que la de los repositorios, todo en minúscula separada con guiones medios.
 - **I7**: Cambiar al branch creado y agregar un archivo con nombre "encuesta.md" - En ese archivo el alumno deberá responder la siguiente pregunta: "¿Qué expectativa tiene de la materia?"
 - **I8**: Realizar un commit y un push.
-- **I9**: Realizar un Pull Request desde el branch 'agregar-encuesta' al 'master' del repositorio y agregar al usuario del docente como revisor, en la descripción de este Pull Request se deberá aclarar que rol tenía cada usuario. Con este paso se terminan las actividades de esta sección y docente realizará la corrección en función de lo hecho. En caso de haber cometido un error el alumno deberá solucionarlo antes de realizar el Pull Request, si se detectan errores, el docente lo comentará y le pedirá la revisión mediante la plataforma de GitHub.
+- **I9**: Realizar un Pull Request desde el branch 'agregar-encuesta' al 'master' del repositorio y agregar al usuario del docente como revisor. Con este paso se terminan las actividades de esta sección y docente realizará la corrección en función de lo hecho. En caso de haber cometido un error el alumno deberá solucionarlo, los cambios quedan reflejados automáticamente en la Pull Request, si se detectan errores, el docente lo comentará y le pedirá la revisión mediante la plataforma de GitHub.
 
 ### Actividad 2: Primer Trabajo Grupal
 
 Las siguientes actividades serán grupales
 
 - **G1**: `Rojo` deberá crear un repositorio con el nombre 'mi-primer-repositorio-en-equipo'. Deberá inicializar con un `README.md`.
-- **G2**: `Rojo` deberá invitar a `Amarillo`, a `Azul` y al usuario del docente como colaboradores.
-- **G3**: Los tres integrantes deberán clonar el repositorio.
-- **G4**: `Azul` modificará el `README.md` agregando el título "Trabajo en equipo" y en una nueva línea agregará su nombre y apellido.
-- **G5**: `Azul` hará un commit y un push.
-- **G6**: `Amarillo` modificará el `README.md` y pondrá el título "Trabajo colaborativo" y en una nueva línea agregará su nombre y apellido.
-- **G7**: `Amarillo` hará commit y push, en este momento deberán surgir conflictos, `Amarillo` deberá solucionarlos, realizar un nuevo commit y hacer push.
-- **G8**: `Azul` hará pull y creará un nuevo branch con el nombre 'prueba-de-formatos'.
-- **G9**: `Azul` deberá generar varios archivos de texto con distinto formato, cada uno con el contenido "Esto es una prueba". Los formatos a utilizar serán: .doc, .docx, .txt, .md, .pdf, .rtf - Nota: Puede requerirse distintos softwares para guardar en cada formato.
-- **G10**: `Azul` deberá hacer un commit con el nombre 'agregar-archivos-basicos' y hacer un push.
+- **G2**: `Rojo` deberá invitar a `Amarillo` y al usuario del docente como colaboradores.
+- **G3**: Los dos integrantes deberán clonar el repositorio.
+- **G4**: `Amarillo` modificará el `README.md` agregando el título "Trabajo en equipo" y en una nueva línea agregará su nombre y apellido.
+- **G5**: `Amarillo` hará un commit y un push.
+- **G6**: `Rojo` modificará el `README.md` y pondrá el título "Trabajo colaborativo" y en una nueva línea agregará su nombre y apellido.
+- **G7**: `Rojo` hará commit y push, en este momento deberán surgir conflictos, `Rojo` deberá solucionarlos, realizar un nuevo commit y hacer push.
+- **G8**: `Amarillo` hará pull y creará un nuevo branch con el nombre 'prueba-de-formatos'.
+- **G9**: `Amarillo` deberá generar varios archivos de texto con distinto formato, cada uno con el contenido "Esto es una prueba". Los formatos a utilizar serán: .doc, .docx, .txt, .md, .pdf, .rtf - Nota: Puede requerirse distintos softwares para guardar en cada formato.
+- **G10**: `Amarillo` deberá hacer un commit con el nombre 'agregar-archivos-basicos' y hacer un push.
 - **G11**: `Rojo` deberá hacer un pull de ambos branches.
 - **G12**: Todos los integrantes deberán entrar al repositorio desde github y verificar cuales de los formatos puede visualizarse correctamente y cuales no.
 - **G13**: `Rojo` deberá agregar una imagen libre de derechos de autor a cada uno de los archivos (siempre que sea posible), hacer un commit y hacer un push.
-- **G14**: `Azul` deberá verificar que la imagen pueda verse en GitHub y realizará un Pull Request a master y pondrá a `Amarillo`, a `Rojo` y al docente como revisores.
-- **G15**: `Amarillo` verá la revisión y deberá solicitar desde la plataforma de Pull Request que se quiten los archivos que no pueden verse adecuadamente.
-- **G16**: `Amarillo` solicitará que `Azul` haga los cambios.
-- **G17**: `Azul` realiza un pull, hace los cambios, realiza un commit, hace un push y notifica a `Amarillo` desde la plataforma de los Pull Request con una mención (@) que los cambios necesarios fueron hechos.
+- **G14**: `Amarillo` deberá verificar que la imagen pueda verse en GitHub y realizará un Pull Request a master y pondrá a `Rojo` y al docente como revisores.
+- **G15**: `Rojo` verá la revisión y deberá solicitar desde la plataforma de Pull Request que se quiten los archivos que no pueden verse adecuadamente.
+- **G16**: `Rojo` solicitará en la PR que `Amarillo` haga los cambios.
+- **G17**: `Amarillo` realiza un pull, hace los cambios, realiza un commit, hace un push y notifica a `Rojo` desde la plataforma de los Pull Request con una mención (@) que los cambios necesarios fueron hechos.
 - **G18**: `Rojo` verifica que todo se pueda visualizar correctamente online y escribe una mención (@) en la plataforma del Pull Request hacia el docente para que haga la corrección de la actividad. En la descripción de este Pull Request se deberá aclarar que rol tenía cada usuario
 
 ### Actividad 3: Mi primer sitio web con GitHub Pages
@@ -69,26 +68,23 @@ Las siguientes actividades serán una combinación de actividades grupales e ind
 
 - **I1**: Cada integrante deberá crear un repositorio (inicializado con un `README.md`) con nombre '{nombre de usuario}.github.io' donde se reemplazará '`{nombre de usuario}`' con el nombre de cada uno de los usuarios. Además se deberá agregar a los demás integrantes y al docente como colaboradores.
 - **I2**: Cada integrante deberá ir a la configuración del repositorio y habilitar las "GitHub Pages" en caso de que no estén habilitadas.
-- **I3**: Cada integrante deberá hacer un clone de su propio repositorio y agregar un archivo index.html, realizar un commit y hacer push. El contenido del archivo deberá ser la estructura básica de HTML (html, head y body) sin formato, CSS ni Javascript. Deberá contener una etiqueta H1 con el nombre y apellido del integrante.
+- **I3**: Cada integrante deberá hacer un clone de su propio repositorio y agregar un archivo index.html, realizar un commit y hacer push. El contenido del archivo deberá ser la estructura básica de HTML (html, head y body) sin formato, sin CSS ni Javascript. Deberá contener una etiqueta H1 con el nombre y apellido del integrante.
 - **I4**: Cada integrante verificará que el sitio http://{nombre de usuario}.github.io está online y tiene el contenido esperado. También deberán verificar el sitios de los demás integrantes.
 - **G5**: `Rojo` deberá crear un "Issue" en el repositorio de `Amarillo` con título "Falta Estilo - Agregar un color de fondo a la letra".
-- **G6**: `Amarillo` deberá crear un "Issue" en el repositorio de `Azul` con título "Faltan Imágenes - Agregar una imagen debajo del título".
-- **G7**: `Azul` deberá crear un "Issue" en el repositorio de `Rojo` con título "Faltan Enlaces - Agregar enlace a los sitios de `Amarillo` y `Azul`".
-- **G8**: Cada uno de los integrantes deberá realizar los cambios pertinentes en sus propios repositorios según el issue que creó el otro integrante y al realizar un commit el mensaje deberá finalizar con " - Closes #{numero del issue}" donde se deberá reemplazar {numero del issue} con el códgio (número luego del #) que GitHub asignó al issue creado.
-- **G9**: `Amarillo` deberá crear un "Issue" en el repositorio de `Azul` con título "Falta Estilo - Agregar un color de fondo a la letra".
-- **G10**: `Azul` deberá crear un "Issue" en el repositorio de `Rojo` con título "Faltan Imágenes - Agregar una imagen debajo del título".
-- **G11**: `Rojo` deberá crear un "Issue" en el repositorio de `Amarillo` con título "Faltan Enlaces - Agregar enlace a los sitios de `Rojo` y `Azul`".
-- **G12**: `Azul` deberá hacer un fork del repositorio de `Amarillo`, crear un branch con un título similar al issue, resolver el problema, realizar un commit y crear una Pull Request al master de `Amarillo` (**no al master del fork que se creó**).
-- **G13**: `Rojo` deberá hacer un fork del repositorio de `Azul`, crear un branch con un título similar al issue, resolver el problema, realizar un commit y crear una Pull Request al master de `Azul` (**no al master del fork que se creó**).
-- **G14**: `Amarillo` deberá hacer un fork del repositorio de `Rojo`, crear un branch con un título similar al issue, resolver el problema, realizar un commit y crear una Pull Request al master de `Rojo` (**no al master del fork que se creó**).
-- **G15**: Cada integrante deberá revisar el Pull Request y aprobarlo.
-- **I16**: Cada integrante deberá crear un branch con el nombre 'detalles-finales' y realizar los cambios necesarios para que su sitio tenga las mismas caracteristicas que el de sus compañeros. Cada sitio deberá tener el estilo, la imagen y los enlaces. Luego se hará un commit, un push y se deberá realizar un Pull Request donde se lo asigne al docente como revisor, en este último paso se hará la evaluación. En la descripción de este Pull Request se deberá aclarar que rol tenía cada usuario
+- **G6**: `Amarillo` deberá crear un "Issue" en el repositorio de `Rojo` con título "Faltan Imágenes - Agregar una imagen debajo del título".
+- **G7**: Cada uno de los integrantes deberá realizar los cambios pertinentes en sus propios repositorios según el issue que creó el otro integrante y al realizar un commit el mensaje deberá finalizar con " - Closes #{numero del issue}" donde se deberá reemplazar {numero del issue} con el códgio (número luego del #) que GitHub asignó al issue creado.
+- **G8**: `Amarillo` deberá crear un "Issue" en el repositorio de `Rojo` con título "Falta Estilo - Agregar un color de fondo a la letra".
+- **G9**: `Rojo` deberá crear un "Issue" en el repositorio de `Amarillo` con título "Faltan Enlaces - Agregar enlace a los sitios de `Rojo`.
+- **G10**: `Amarillo` deberá hacer un fork del repositorio de `Rojo`, crear un branch con un título similar al issue, resolver el problema, realizar un commit y crear una Pull Request al master de `Rojo` (**no al master del fork que se creó**).
+- **G11**: `Rojo` deberá hacer un fork del repositorio de `Amarillo`, crear un branch con un título similar al issue, resolver el problema, realizar un commit y crear una Pull Request al master de `Amarillo` (**no al master del fork que se creó**).
+- **G12**: Cada integrante deberá revisar el Pull Request y aprobarlo.
+- **I13**: Cada integrante deberá crear un branch con el nombre 'detalles-finales' y realizar los cambios necesarios para que su sitio tenga las mismas caracteristicas que el de sus compañeros. Cada sitio deberá tener el estilo, la imagen y los enlaces. Luego se hará un commit, un push y se deberá realizar un Pull Request donde se lo asigne al docente como revisor, en este último paso se hará la evaluación. En la descripción de este Pull Request se deberá aclarar que rol tenía cada usuario
 
 Luego de que la actividad quede aprobada, cada alumno tendrá la libertad de utilizar este último repositorio como desee, es una manera gratuita de alojar sitios web estáticos.
 
 ## Preparativos para los próximos Trabajos Prácticos
 
-Luego de tener las 3 actividades aprobadas, se deberán formar equipos de trabajo de 2 o 3 integrantes (no necesariamente tienen que ser los mismos que para esta actividad) y se realizará un único For por equipo del repositorio de Práctica (donde estarán los próximos TPs). En ese repositorio se deben agregar a todos los integrantes como colaboradores y al docente. Cada integrante deberá utilizar su cuenta para trabajar ya que en el proceso de evaluación se tendrá en cuenta la participación individual.
+Luego de tener las 3 actividades aprobadas, se debe realizar un único Fork por equipo del repositorio de Práctica (donde estarán los próximos TPs). En ese repositorio se deben agregar a todos los integrantes como colaboradores y al docente. Cada integrante deberá utilizar su cuenta para trabajar ya que en el proceso de evaluación se tendrá en cuenta la participación individual.
 
 El esquema de trabajo será el siguiente:
 
