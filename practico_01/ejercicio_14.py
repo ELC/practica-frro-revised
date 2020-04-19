@@ -85,10 +85,7 @@ categoria_articulos = ['hogar', 'libreria', 'perfumeria']
 importado_articulos = [True, False, True]
 
 def combinar(*args) -> Tuple[Any]:
-    articulos = []
-
-    for articulo in zip(*args):
-        articulos.append(articulo)
+    articulos = [articulo for articulo in zip(*args)]
 
     return tuple(articulos)
 

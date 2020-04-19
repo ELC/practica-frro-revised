@@ -5,10 +5,7 @@
 # Escribir utilizando un bucle for
 
 def sumatoria(n: int) -> int:
-    summation = 0
-    for i in range(n + 1):
-        summation = summation + i
-    return summation
+    return sum(range(n + 1))
 
 # NO MODIFICAR
 assert sumatoria(1) == 1

@@ -6,10 +6,7 @@ from typing import Iterable
 
 
 def tiene_pares(numeros: Iterable[int]) -> bool:
-    for numero in numeros:
-        if numero % 2 == 0:
-            return True
-    return False
+    return any(numero % 2 == 0 for numero in numeros)
 
 
 # NO MODIFICAR

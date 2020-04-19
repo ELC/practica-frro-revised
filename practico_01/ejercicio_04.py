@@ -15,9 +15,7 @@ def es_vocal(letra: str) -> bool:
         return True
     if letra == "o":
         return True
-    if letra == "u":
-        return True
-    return False
+    return letra == "u"
 
 # NO MODIFICAR
 assert es_vocal('a') == True
@@ -29,9 +27,7 @@ assert es_vocal('A') == True
 # Referencia: https://docs.python.org/3/reference/expressions.html#membership-test-operations
 
 def es_vocal(letra: str) -> bool:
-    if letra.lower() in "aeiou":
-        return True
-    return False
+    return letra.lower() in "aeiou"
 
 # NO MODIFICAR
 assert es_vocal('a') == True

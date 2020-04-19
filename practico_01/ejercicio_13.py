@@ -12,12 +12,7 @@ def suma_cubo_pares(numeros: Iterable[int]) -> int:
     for numero in numeros:
         cubos.append(numero ** 3)
 
-    suma_pares = 0
-    for numero in cubos:
-        if numero % 2 == 0:
-            suma_pares += numero 
-
-    return suma_pares
+    return sum(numero for numero in cubos if numero % 2 == 0)
 
 # NO MODIFICAR
 assert suma_cubo_pares([1, 2, 3, 4, 5, 6]) == 288
@@ -29,7 +24,7 @@ assert suma_cubo_pares([1, 2, 3, 4, 5, 6]) == 288
 # Referencia: https://docs.python.org/3/library/functions.html#sum
 
 def suma_cubo_pares(numeros: Iterable[int]) -> int:
-    return sum([numero ** 3 for numero in numeros if numero ** 3 % 2 == 0])
+    return sum(numero ** 3 for numero in numeros if numero ** 3 % 2 == 0)
 
 # NO MODIFICAR
 assert suma_cubo_pares([1, 2, 3, 4, 5, 6]) == 288

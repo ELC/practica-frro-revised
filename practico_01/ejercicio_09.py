@@ -22,10 +22,7 @@ assert superposicion(test_list, (2, "world", 30.85)) == False
 # Re-Escribir utilizando un sólo bucle y el operador in
 
 def superposicion(lista_1: Iterable[Any], lista_2: Iterable[Any]) -> bool:
-    for elem in lista_1:
-        if elem in lista_2:
-            return True
-    return False
+    return any(elem in lista_2 for elem in lista_1)
 
 # NO MODIFICAR
 test_list = [1, "hello", 35.20]

@@ -9,14 +9,7 @@ from typing import Union
 # Escribir utilizando un sólo return - No utilizar ANDs ni ORs
 
 def operacion(a: float, b: float, multiplicar: bool) -> Union[float, str]:
-    if multiplicar:
-        result = a * b
-    else:
-        if b == 0:
-            result = "Operación no válida"
-        else:
-            result = a / b
-    return result
+    return a * b if multiplicar else 'Operación no válida' if b == 0 else a / b
 
 # NO MODIFICAR
 assert operacion(1, 1, True) == 1

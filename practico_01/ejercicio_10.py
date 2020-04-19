@@ -6,11 +6,7 @@ def es_primo(numero: int) -> bool:
     if numero <= 1:
          return False
 
-    for i in range(2, numero):
-        if numero % i == 0:
-            return False
-
-    return True
+    return all(numero % i != 0 for i in range(2, numero))
 
 # NO MODIFICAR
 assert es_primo(2) == True
